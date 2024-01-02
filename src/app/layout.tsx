@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lilita_One, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const lilita = Lilita_One({ subsets: ["latin-ext"], weight: ["400"] });
+const Monts = Montserrat({ subsets: ["latin"], weight: ["900"] });
 
 export const metadata: Metadata = {
   title: "Botly dashboard",
@@ -16,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${lilita.className}${Monts.className}`}>
+        {children}
+      </body>
     </html>
   );
 }
