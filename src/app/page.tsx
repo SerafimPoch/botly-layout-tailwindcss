@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main>Botly dashboard</main>;
+  return <main>Botly dashboard layout</main>;
 }
