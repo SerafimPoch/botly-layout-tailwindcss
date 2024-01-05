@@ -10,9 +10,15 @@ const config: Config = {
     extend: {
       backgroundColor: {
         "purple-light": "#382D52",
+        purple: "#5D74F1",
+      },
+      borderWidth: {
+        "10": "10px",
+        "5": "5px",
       },
       padding: {
         "40px": "40px 48px",
+        membership: "24px 16px 24px 32px",
       },
       fontSize: {
         "2.5xl": "28px",
@@ -30,6 +36,11 @@ const config: Config = {
       },
       colors: {
         creamy: "#ECEAF0",
+        "purple-gray": "#3F3655",
+        "custom-green": "#349264",
+      },
+      borderColor: {
+        "custom-green": "#349264",
       },
     },
   },
