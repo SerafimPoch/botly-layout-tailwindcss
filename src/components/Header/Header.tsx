@@ -8,7 +8,7 @@ export const Header = () => (
       </a>
       <h1 className="text-white text-2.5xl leading-9 font-lilita">Botly</h1>
     </div>
-    <nav>
+    <nav className="hidden md:block">
       <ul className="flex items-center gap-3 text-white text-lg font-monts">
         <li>
           <a href="/pricing" className="opacity-50 hover:opacity-100">
