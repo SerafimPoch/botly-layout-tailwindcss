@@ -42,6 +42,9 @@ const config: Config = {
       borderColor: {
         "custom-green": "#349264",
       },
+      gridTemplateColumns: {
+        "custom-2": "repeat(2, minmax(450px, 1fr))",
+      },
     },
   },
   plugins: [],

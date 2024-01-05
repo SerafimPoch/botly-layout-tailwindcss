@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const Header = () => (
-  <header className="flex justify-between items-end p-40px ">
+  <header className="flex justify-between items-end p-40px mb-9">
     <div className="flex items-end gap-3 cursor-pointer">
       <a href="/" aria-label="Homepage">
         <Image width={38} height={38} src="logo.svg" alt="Botly logo" />
