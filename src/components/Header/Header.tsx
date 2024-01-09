@@ -34,7 +34,7 @@ export const Header = () => (
     </nav>
     <button
       aria-label="Download the Botly app"
-      className="w-147px h-48px flex items-center justify-center bg-purple-light rounded-xl hover:bg-purple-500"
+      className="w-147px h-48px flex items-center justify-center bg-purple-light rounded-xl hover:bg-purple"
       type="button"
     >
       <span className="text-creamy font-monts">Download</span>

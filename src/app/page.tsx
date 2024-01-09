@@ -24,7 +24,7 @@ export default function Home() {
             improves online interactions.
           </h3>
           <button
-            className="flex items-center justify-center bg-white w-56 h-10 lg:col-span-2 justify-self-center rounded-xl text-base font-bold font-monts"
+            className="flex items-center justify-center bg-white w-56 h-10 lg:col-span-2 justify-self-center rounded-xl text-base font-bold font-monts hover:opacity-50"
             type="button"
             aria-label="Download for Mac"
           >
